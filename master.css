@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+body {
+    background-color: #f0f2f5;
+}
+.main {
+    width: 200px;
+}
+.page {
+    width: 515px;
+    position: absolute;
+    top: 36.2%;
+    left: 17.5%;
+    font-size: 28px;
+}
+.img {
+    width: 297px;
+    margin: auto 241px;
+    padding: 10px;
+    /* font-size: 66px; */
+    position: absolute;
+    top: 23%;
+}
+.card {
+    background-color: #fff;
+    width: 395px;
+    height: 355px;
+    position: absolute;
+    top: 17%;
+    left: 55.5%;
+    border-radius: 10px;
+    box-shadow: 1px 10px 20px 0px #76757554;
+}
+input {
+    width: 367px;
+    height: 52px;
+    margin: 15px 15px 0px 15px;
+    padding: 14px 16px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid rgb(0 0 0 / 24%);
+    font-size: 18px;
+}
+input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+}
+.login {
+    width: 367px;
+    height: 52px;
+    margin: 15px;
+    background-color: #1877f2;
+    color: white;
+    border: #1877f2 1px solid;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.login:hover {
+    box-shadow: inset 1px 0px 20px 11px #00000021;
+    cursor: pointer;
+}
+.forget {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+hr {
+    background-color: #00000021;
+    width: 93%;
+    position: absolute;
+    top: 73%;
+    left: 4%;
+    border-top: 1px solid rgb(180, 180, 180);
+}
+.new {
+    width: 51%;
+    height: 52px;
+    border-radius: 7px;
+    position: absolute;
+    top: 78%;
+    left: 26%;
+    background-color: #42b72a;
+    border: unset;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;  
+}
+.new:hover {
+    box-shadow: inset 1px 0px 20px 11px #00000021;
+    cursor: pointer;
+}
+.Page {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 67%;
+    left: 59%;
+    font-weight: bold;
+}
+.Page + p{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 67%;
+    left: 66%;
+    /* font-weight: bold; */
+}
